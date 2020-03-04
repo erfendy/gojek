@@ -2,7 +2,7 @@
 
 error_reporting(0);
 include ("func.php");
-echo "\e                             GOJEK VERSION 1.7.5            \n";
+echo "\e                         GOJEK VERSION 1.7.5            \n";
 echo "\e                     SCRIPT GOJEK RONI EFENDHI\n";
 echo "\n";
 nope:
@@ -39,7 +39,7 @@ if ($register == false)
 		$h=fopen("newgojek.txt","a");
 		fwrite($h,json_encode(array('token' => $verif, 'voc' => 'gofood gak ada'))."\n");
 		fclose($h); 
-                echo "\e[!] Trying to redeem Reff :G-42LPGWC !\n";
+                echo "\e[!] Trying to redeem Reff :G-5NR38JW !\n";
                 sleep(3);
             $claim = reff($verif);
             if ($claim == false){
